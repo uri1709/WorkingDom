@@ -37,7 +37,7 @@ function getInnerHTMLTask(task) {
                             <label for="${task.id}"></label>
                         </form>
                         <span class="task-item__text">
-                        ${task.id} - ${task.text}
+                        ${task.text}
                         </span>
                     </div>
                     <button class="task-item__delete-button default-button delete-button">
